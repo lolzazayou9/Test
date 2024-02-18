@@ -1,7 +1,7 @@
 function checkCode() {
     var input = document.getElementById("codeInput").value;
     var messageElement = document.getElementById("message");
-    if (input === "ABCD") {
+    if (input === "Fprce") {
         messageElement.innerHTML = "น้องฟอสเองจ้า";
     } if (input === "ควย"){
         messageElement.innerHTML = "ควย";
