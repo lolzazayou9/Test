@@ -5,5 +5,7 @@ function checkCode() {
         messageElement.innerHTML = "น้องฟอสเองจ้า";
     } if (input === "ควย"){
         messageElement.innerHTML = "ควย";
+    }else{
+        messageElement.innerHTML = "ผิดนะจ๊ะ!";
     }
 }
