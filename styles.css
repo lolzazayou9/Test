@@ -14,50 +14,6 @@ body {
 
 h1 {
     text-align: center;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-p#message {
-    margin-top: 10px;
-    text-align: center;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-.container {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
     color: rgb(255, 0, 0); /* เปลี่ยนสีข้อความเป็นสีแดง (255, 0, 0) */
 }
 
@@ -101,3 +57,23 @@ p#message {
 .rainbow-text {
     animation: rainbow 4s infinite; /* เรียกใช้งาน Animation "rainbow" ในระยะเวลา 4 วินาที และเริ่มต้นใหม่เสมอ */
 }
+
+@keyframes rainbow-text {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    56% { color: blue; }
+    70% { color: indigo; }
+    84% { color: violet; }
+    100% { color: red; }
+}
+
+.rainbow {
+    animation: rainbow-text 4s infinite; /* เรียกใช้งาน Animation "rainbow-text" ในระยะเวลา 4 วินาที และเริ่มต้นใหม่เสมอ */
+}
+
+
+
+
+
